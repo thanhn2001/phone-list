@@ -1,0 +1,19 @@
+{
+  "name": "element-ready",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "angular": "1.5.8",
+    "angularjs-testing-library": "2.0.1",
+    "lodash": "4.17.15"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  },
+  "keywords": []
+}

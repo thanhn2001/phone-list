@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 2rem;
+}
+
+th,
+td {
+  white-space: nowrap;
+  padding: 10px 20px;
+  font-family: Arial;
+}
+
+.sticky-table {
+  position: relative;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: center;
+}
+
+td {
+  text-align: left;
+}
+
+/* sticky header */
+.sticky-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  /* background: white; */
+  background: green;
+}
+
+/* sticky columns */
+.sticky-table .sticky-col {
+  position: sticky;
+  left: 0;
+  z-index: 100;
+  /* background: white; */
+  background: blue;
+}
+
+/* sticky header columns */
+.sticky-table thead th.sticky-col {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  /* background: white; */
+  background: red;
+}
